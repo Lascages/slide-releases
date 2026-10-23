@@ -28,8 +28,9 @@ Même pièce, même Wi-Fi. Rien à configurer, aucun compte, aucun serveur.
 
 <table>
 <tr>
-<td width="34%" align="center"><img src="assets/screens/confirmation.png" alt="Confirmation"><br><sub><b>La confirmation</b> : qui, quoi, et ce qui va se passer</sub></td>
-<td width="66%" align="center"><img src="assets/screens/activite.png" alt="Activité"><br><sub><b>L'activité</b> : chaque envoi avec son statut détaillé</sub></td>
+<td width="30%" align="center"><img src="assets/screens/liste-glisser.png" alt="Liste pendant un glisser"><br><sub><b>Pendant un glisser</b> : tout le monde à droite, même hors ligne</sub></td>
+<td width="30%" align="center"><img src="assets/screens/confirmation.png" alt="Confirmation"><br><sub><b>La confirmation</b> : qui, quoi, et ce qui va se passer</sub></td>
+<td width="40%" align="center"><img src="assets/screens/activite.png" alt="Activité"><br><sub><b>L'activité</b> : chaque envoi avec son statut</sub></td>
 </tr>
 </table>
 
@@ -74,7 +75,7 @@ Ensuite, **Slide se met à jour tout seul** : vous n'aurez plus jamais à retél
 
 | Façon | Comment |
 |---|---|
-| **Glisser-déposer** | Commencez à glisser n'importe quoi : un **dock** apparaît en bas de l'écran avec vos contacts (les plus fréquents d'abord), relâchez sur l'un d'eux. Réglable : placement à 360° autour de l'écran |
+| **Glisser-déposer** | Commencez à glisser n'importe quoi : **la liste des personnes s'affiche sur le bord droit de l'écran** (avatar, statut, hors ligne compris, les plus fréquents d'abord). Relâchez sur l'une d'elles. Réglable : placement à 360° autour de l'écran |
 | **Dans la fenêtre Slide** | La liste classe vos contacts, **les plus fréquents en premier** : glissez sur une personne, ou cliquez ses boutons (fichiers, message, presse-papiers, page web, regarder ensemble) |
 | **Clic droit sur un Mac** | Fichiers, message, presse-papiers, page du navigateur, « regarder ensemble » |
 | **Raccourci `⌃⌥⌘S`** | Envoie votre presse-papiers (texte, image, fichier…) |
@@ -95,6 +96,13 @@ Ensuite, **Slide se met à jour tout seul** : vous n'aurez plus jamais à retél
 | **Message court** | Affiché en bannière, avec un bouton **Répondre…** |
 | **Regarder ensemble** | La vidéo démarre **au même instant** sur les deux Macs (6 secondes après l'envoi) |
 
+### Envoyer à quelqu'un de hors ligne
+
+Vous pouvez envoyer à une personne **hors ligne** : l'élément est **mis en attente** (copié en lieu sûr) et **part tout seul dès qu'elle réapparaît**, avec nouvelles tentatives si ça échoue. Une ligne « En attente · hors ligne » dans **Activité** permet de l'annuler. Sans réponse après 7 jours, l'envoi est abandonné.
+
+> [!NOTE]
+> L'envoi différé fonctionne tant que **votre** Slide est ouvert au retour de la personne.
+
 ## Recevoir
 
 Quand quelqu'un vous envoie quelque chose, **une boîte de confirmation s'affiche au premier plan**, même si la fenêtre Slide est fermée ou si vous êtes en plein écran. Elle montre :
@@ -104,6 +112,8 @@ Quand quelqu'un vous envoie quelque chose, **une boîte de confirmation s'affich
 - **ce qui se passera** : le bouton s'adapte (« Accepter et ouvrir », « Accepter et ajouter à Notes »…).
 
 Vous pouvez aussi répondre **depuis la notification**, avec les boutons *Accepter*, *Toujours accepter* et *Refuser*. Sans réponse après 90 secondes, la demande est refusée.
+
+**Rangement** : ce que vous recevez est classé **par expéditeur** dans `Téléchargements/Slide/<nom>` (réglable dans Réglages > Réception).
 
 **Macs de confiance** : cochez *Toujours accepter les envois de…* pour ne plus avoir de confirmation avec cette personne. Gérez la liste dans Réglages > Sécurité.
 
@@ -172,7 +182,7 @@ Ouvrez **Réglages > Journal** : chaque envoi, réception et échec y est noté 
 ## Bientôt
 
 - Comptes et **organisations** : envoyer à vos contacts et collègues, même sur un autre réseau.
-- Une liste de personnes classée par fréquence d'échange, puis par organisation.
+- Les personnes avec qui vous avez déjà échangé seront **liées à leur compte** dès qu'elles en créent un.
 - Envoi à une **équipe** entière en un glisser.
 
 ---
