@@ -119,6 +119,25 @@ Vous pouvez aussi répondre **depuis la notification**, avec les boutons *Accept
 
 **Suivre ce qui se passe** : l'onglet **Activité** liste chaque transfert avec son statut détaillé (*En attente d'acceptation*, *Lien ouvert dans le navigateur*, *Note ajoutée à Notes*, *Refusé*, *Injoignable*…) et des boutons *Ouvrir le lien* ou *Afficher*. Chaque événement (accepté, refusé, reçu, échec, Mac à proximité…) déclenche aussi une bannière.
 
+## Retrouver ce que vous avez reçu
+
+L'onglet **Reçus** liste ce que vous avez reçu, **classé par expéditeur**, avec recherche et filtre par personne. Chaque fichier a un bouton **Ouvrir**, un accès **Finder**, et peut être glissé ailleurs.
+
+## Voir et analyser votre réseau
+
+L'onglet **Réseau** liste **tous les appareils** de votre Wi-Fi, même sans Slide : fabricant, modèle, services annoncés (AirPlay, imprimante…), type (Mac, mobile, TV, imprimante, routeur, NAS, caméra…), historique et alerte **« Nouvel appareil sur le réseau »**. Une fiche détaillée propose, **à votre demande** : analyse des ports courants, ouverture de l'interface web, accès SSH / dossiers partagés / partage d'écran, **réveil à distance** (Wake-on-LAN), ping, copie de l'IP ou de la MAC.
+
+> [!NOTE]
+> Rien n'est tenté d'intrusif : aucune authentification, aucun test de vulnérabilité. L'analyse reste sur votre réseau local.
+
+## Raccourcis clavier
+
+| Raccourci | Action |
+|---|---|
+| `⌘1` à `⌘4` | Envoyer · Activité · Reçus · Réseau |
+| `⌘,` | Réglages |
+| `⌃⌥⌘S` / `⌃⌥⌘B` | Envoyer le presse-papiers / la page du navigateur (partout) |
+
 ## Mises à jour
 
 - **Automatiques** : Slide vérifie toutes les heures, télécharge et s'installe tout seul.
@@ -133,6 +152,7 @@ Toutes les versions sont dans l'onglet [Releases](https://github.com/Lascages/sl
 - **Aucun serveur, aucun compte** : les Macs échangent **directement** entre eux, sur votre réseau. Rien ne passe par internet.
 - **Tout est chiffré** (TLS avec clé partagée) : un tiers sur le même Wi-Fi ne peut pas lire les transferts.
 - **Code de la pièce** *(optionnel, Réglages > Sécurité)* : définissez le même mot de passe sur vos Macs, et seuls ceux-là se voient et se parlent.
+- **Identité vérifiable** : chaque Mac a sa propre clé cryptographique (gardée dans un fichier privé de votre session). Les envois sont **signés** : la confirmation affiche « Identité vérifiée » avec son empreinte, ou un avertissement « Identité non vérifiée » (ancienne version de Slide, ou quelqu'un qui se fait passer pour un autre). Un Mac non vérifié n'est **jamais** accepté automatiquement.
 - **Rien n'arrive sans votre accord** : chaque envoi d'un Mac inconnu demande une confirmation.
 - **Le contenu de vos fichiers n'est jamais lu en dehors de l'envoi**. Slide ne regarde que ce que vous glissez ou envoyez.
 
@@ -153,6 +173,12 @@ Toutes les versions sont dans l'onglet [Releases](https://github.com/Lascages/sl
 <summary><b>macOS refuse d'ouvrir Slide</b></summary>
 
 C'est l'avertissement du premier lancement (voir [Installation](#installation)) : **Ouvrir quand même** dans Confidentialité et sécurité, ou la commande `xattr` du Terminal.
+</details>
+
+<details>
+<summary><b>Après une mise à jour, Slide me redemande de confirmer un Mac de confiance</b></summary>
+
+C'est voulu, **une seule fois** : la confiance est désormais liée à l'**identité cryptographique** du Mac et non plus à un identifiant qu'un autre appareil pourrait imiter. Acceptez avec « Toujours accepter » : c'est fait pour de bon.
 </details>
 
 <details>
