@@ -24,6 +24,17 @@ Même pièce, même Wi-Fi. Rien à configurer, aucun compte, aucun serveur.
 > [!IMPORTANT]
 > **Les deux personnes doivent avoir Slide ouvert**, sur le même réseau Wi-Fi (ou le même câble). Envoyez-leur simplement le lien de téléchargement ci-dessus.
 
+## Aperçu
+
+<table>
+<tr>
+<td width="34%" align="center"><img src="assets/screens/confirmation.png" alt="Confirmation"><br><sub><b>La confirmation</b> : qui, quoi, et ce qui va se passer</sub></td>
+<td width="66%" align="center"><img src="assets/screens/activite.png" alt="Activité"><br><sub><b>L'activité</b> : chaque envoi avec son statut détaillé</sub></td>
+</tr>
+</table>
+
+<div align="center"><img src="assets/screens/bannieres.png" width="360" alt="Bannières"><br><sub><b>Les bannières</b> : tout événement est notifié</sub></div>
+
 ## Installation
 
 1. **Téléchargez** [Slide.dmg](https://github.com/Lascages/slide-releases/releases/latest/download/Slide.dmg) et ouvrez-le.
@@ -63,8 +74,8 @@ Ensuite, **Slide se met à jour tout seul** : vous n'aurez plus jamais à retél
 
 | Façon | Comment |
 |---|---|
-| **Glisser-déposer** | Commencez à glisser n'importe quoi : une cible apparaît pour chaque Mac détecté, relâchez dessus |
-| **Dans la fenêtre Slide** | Glissez sur la carte d'un Mac, ou cliquez **Envoyer…** et choisissez les fichiers |
+| **Glisser-déposer** | Commencez à glisser n'importe quoi : un **dock** apparaît en bas de l'écran avec vos contacts (les plus fréquents d'abord), relâchez sur l'un d'eux. Réglable : placement à 360° autour de l'écran |
+| **Dans la fenêtre Slide** | La liste classe vos contacts, **les plus fréquents en premier** : glissez sur une personne, ou cliquez ses boutons (fichiers, message, presse-papiers, page web, regarder ensemble) |
 | **Clic droit sur un Mac** | Fichiers, message, presse-papiers, page du navigateur, « regarder ensemble » |
 | **Raccourci `⌃⌥⌘S`** | Envoie votre presse-papiers (texte, image, fichier…) |
 | **Raccourci `⌃⌥⌘B`** | Envoie la page ouverte dans votre navigateur |
