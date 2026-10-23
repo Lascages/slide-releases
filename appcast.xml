@@ -5,5 +5,14 @@
         <link>https://github.com/Lascages/slide-releases</link>
         <description>Versions de Slide</description>
         <language>fr</language>
+        <item>
+            <title>Slide 0.2.0</title>
+            <pubDate>Fri, 23 Oct 2026 01:13:27 -0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Première version avec mises à jour automatiques : Slide se met à jour tout seul.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.2.0/Slide-0.2.0.dmg" sparkle:edSignature="+H/5i7oKxksyaf/KdCv1tlz4fUf/KFwNj6UIMDZmXyL0hn1OCj7JyAppv8csNnQRfS/WXjKm2I44XLl4aj+JCg==" length="3951666" type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
