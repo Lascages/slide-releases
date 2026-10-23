@@ -125,10 +125,27 @@ L'onglet **Reçus** liste ce que vous avez reçu, **classé par expéditeur**, a
 
 ## Voir et analyser votre réseau
 
-L'onglet **Réseau** liste **tous les appareils** de votre Wi-Fi, même sans Slide : fabricant, modèle, services annoncés (AirPlay, imprimante…), type (Mac, mobile, TV, imprimante, routeur, NAS, caméra…), historique et alerte **« Nouvel appareil sur le réseau »**. Une fiche détaillée propose, **à votre demande** : analyse des ports courants, ouverture de l'interface web, accès SSH / dossiers partagés / partage d'écran, **réveil à distance** (Wake-on-LAN), ping, copie de l'IP ou de la MAC.
+L'onglet **Réseau** liste **tous les appareils** de votre Wi-Fi, même sans Slide : fabricant, modèle, services annoncés (AirPlay, imprimante…), type (Mac, iPhone/iPad, Android, TV, imprimante, routeur, NAS, caméra, maison connectée…) avec un **niveau de confiance** (certain, probable, incertain), historique et alerte **« Nouvel appareil sur le réseau »**.
+
+Une fiche détaillée, **à votre demande**, peut :
+
+| Type d'appareil | Ce que Slide peut lire | Ce que Slide peut faire |
+|---|---|---|
+| **Mac / PC** | modèle, nom | ouvrir SSH, dossiers partagés, partage d'écran, réveil à distance |
+| **iPhone / iPad** | reconnu par son service de synchronisation | « Envoyer via AirDrop… » |
+| **Android** | peu de chose (c'est normal) | rien d'inventé : Quick Share n'a pas d'API utilisable depuis un Mac |
+| **TV / Roku / Chromecast** | modèle, nom, version, applications | **envoyer une vidéo YouTube sur l'écran**, télécommande Roku |
+| **Enceintes (Sonos, AirPlay)** | modèle, pièce, morceau en cours | lecture / pause / volume (Sonos) |
+| **Imprimantes** | modèle, état, **niveaux d'encre** | **imprimer un fichier** |
+| **Box / routeur** | modèle, adresse IP externe, nombre de redirections de ports | ouvrir l'interface web |
+| **Maison connectée** | état des prises Shelly, Tasmota, Kasa ; ponts Hue (lecture) | allumer / éteindre une prise |
+| **Tous** | historique, première et dernière vue | ping, copier IP/MAC, **« me prévenir quand il se connecte ou se déconnecte »** |
+
+> [!IMPORTANT]
+> **Sécurité des actions.** Tout ce qui **change l'état** d'un appareil (allumer, éteindre, envoyer une vidéo, imprimer…) demande une **confirmation à chaque fois**, est inscrit dans le journal, et ne part **jamais** automatiquement. Aucune authentification n'est tentée, aucun test de vulnérabilité, et seules les adresses de **votre réseau local** sont concernées.
 
 > [!NOTE]
-> Rien n'est tenté d'intrusif : aucune authentification, aucun test de vulnérabilité. L'analyse reste sur votre réseau local.
+> Un téléphone n'ouvre en général aucun port : « aucun port ouvert » est **normal** et ne veut pas dire qu'il est absent. Les adresses Wi-Fi « privées » (aléatoires) des téléphones ne révèlent pas le fabricant. Les protocoles des TV, imprimantes et objets connectés varient selon le modèle et la version : certaines actions peuvent ne pas fonctionner sur tous les appareils.
 
 ## Raccourcis clavier
 
