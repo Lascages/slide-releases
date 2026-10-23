@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.5.0</title>
+            <pubDate>Fri, 23 Oct 2026 02:09:15 -0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Identité vérifiée : chaque Mac a sa clé cryptographique, les envois sont signés et un Mac non vérifié n'est jamais accepté automatiquement (les Macs de confiance sont à reconfirmer une fois). Réseau 2.0 : fabricant, modèle, services, ports à la demande, historique, alerte nouvel appareil, réveil à distance. Nouvel écran Reçus classé par expéditeur, menu en sections avec raccourcis clavier, réglages en onglets. Envoi différé hors ligne, dossier par expéditeur, liste des personnes à droite pendant un glisser.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.5.0/Slide-0.5.0.dmg" sparkle:edSignature="GvMnyfvHSa2WCbmBJdInCLbQTWDiPdFtHHrPfBB6byKUD6JfZnHiPraUwQMLUM9iEUYsrOIjW3bfXaa6JlMjDw==" length="5799703" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.4.0</title>
             <pubDate>Fri, 23 Oct 2026 01:36:50 -0000</pubDate>
             <sparkle:version>5</sparkle:version>
