@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.7.0</title>
+            <pubDate>Sat, 24 Oct 2026 21:40:54 -0000</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : menu Services « Envoyer avec Slide » (texte et fichiers, depuis n'importe quelle app) et raccourci ⌃⌥⌘L pour envoyer le presse-papiers à la dernière personne contactée.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.7.0/Slide-0.7.0.dmg" sparkle:edSignature="VCMMnODxsHcxnC/8gg45hBbz3QcOHbPn6WFaGtFriCix0XSxccZCcmAgfrkbttMXsbJcSh7pPcJ8UNx99scSBg==" length="7177908" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.6.2</title>
             <pubDate>Sat, 24 Oct 2026 21:36:05 -0000</pubDate>
             <sparkle:version>27</sparkle:version>
