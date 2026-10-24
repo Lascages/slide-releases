@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.6.2</title>
+            <pubDate>Sat, 24 Oct 2026 21:36:05 -0000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Les notes créées depuis un texte sélectionné suivent maintenant le thème de Notes (plus de texte noir imposé).]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.6.2/Slide-0.6.2.dmg" sparkle:edSignature="GS8WH4Xm2FnBGeXxvEpI0bp4tVRvTNozyVmVc8T6U9K/CcMbl1JWdXTH6k5uApv4cGxl6mCPSaXtL2JE2apZCg==" length="7173107" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.6.1</title>
             <pubDate>Sat, 24 Oct 2026 21:31:21 -0000</pubDate>
             <sparkle:version>26</sparkle:version>
