@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.9.1</title>
+            <pubDate>Sat, 24 Oct 2026 22:26:58 -0000</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Correction : la bulle d'envoi pouvait disparaître après une mise à jour, car macOS oubliait l'autorisation Accessibilité. Slide a maintenant une signature stable : une fois autorisée, l'autorisation reste valable pour les prochaines mises à jour. Cette fois, macOS vous la redemandera une dernière fois : acceptez-la dans Réglages Système > Confidentialité et sécurité > Accessibilité.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.9.1/Slide-0.9.1.dmg" sparkle:edSignature="iAKYF3eRcP8fVsas73l3U1IptmlGY02r8mnlRWRSZ1z9ksNMdNH/4wTm8J2TeoyR9BRofUG4SujRl0ne3QwlAw==" length="7380503" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.9.0</title>
             <pubDate>Sat, 24 Oct 2026 22:22:25 -0000</pubDate>
             <sparkle:version>31</sparkle:version>
