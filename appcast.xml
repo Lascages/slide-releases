@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.12.0</title>
+            <pubDate>Sat, 24 Oct 2026 23:24:48 -0000</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : un seul bouton « lien » sur la fiche de chaque personne ouvre une fenêtre claire pour coller une vidéo ou une page web, avec en suggestion la page de votre navigateur et le lien copié, puis choisir « Envoyer le lien » ou « Regarder ensemble ». Le bouton « … » ne garde que les autres actions (faire sonner, dernière capture, presse-papiers partagé, dossier surveillé) au lieu de répéter les boutons déjà visibles. La liste « Autre… » de la bulle a maintenant une recherche.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.12.0/Slide-0.12.0.dmg" sparkle:edSignature="Si9+ZTG6tdNF9H8stCHoAkd+e/EJkEpemeZRfeeLQMp+3YalmApx6gAURDAlnuURM5Zh2oQtMlQSI1ByHkOIAw==" length="7678864" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.11.2</title>
             <pubDate>Sat, 24 Oct 2026 23:02:41 -0000</pubDate>
             <sparkle:version>34</sparkle:version>
