@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.8.0</title>
+            <pubDate>Sat, 24 Oct 2026 22:09:31 -0000</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : quand vous sélectionnez du texte dans n'importe quelle application, une petite bulle « Envoyer à… » apparaît à côté. Un clic sur un prénom envoie le texte, qui arrive comme une note. La bulle se désactive dans Réglages, et macOS demande une autorisation (Accessibilité) la première fois.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.8.0/Slide-0.8.0.dmg" sparkle:edSignature="9b33oOswJr9lMljHOV/ZrU+/F4OtN2zhePWNXagfvGfiWQJKrhAfzWjUPSVi+ZcsTOjhSnO3T8wsalNgfkW+BA==" length="7268240" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.7.1</title>
             <pubDate>Sat, 24 Oct 2026 21:57:46 -0000</pubDate>
             <sparkle:version>29</sparkle:version>
