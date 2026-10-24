@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.11.0</title>
+            <pubDate>Sat, 24 Oct 2026 22:54:46 -0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : quand vous regardez une vidéo ensemble, la lecture, la pause et l'avance rapide sont synchronisées entre les deux Macs. Nouveau dans le menu « … » de chaque personne : faire sonner son Mac, envoyer la dernière capture d'écran, partager le presse-papiers en continu (les deux doivent l'activer) et surveiller un dossier dont les nouveaux fichiers partent automatiquement vers cette personne.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.11.0/Slide-0.11.0.dmg" sparkle:edSignature="+OmK/FZOm187N9mBk1DR4CxuaVMkO/RydZTIswjzVIVL2mdXIrbNPi83SSO4pokEPofd7ZfBBpri38N3FMMmCA==" length="7584658" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.10.0</title>
             <pubDate>Sat, 24 Oct 2026 22:48:15 -0000</pubDate>
             <sparkle:version>33</sparkle:version>
