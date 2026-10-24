@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.7.1</title>
+            <pubDate>Sat, 24 Oct 2026 21:57:46 -0000</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : envoyez ce que vous avez sélectionné dans n'importe quelle application (texte ou fichiers) en appuyant sur Contrôle + Option + Commande + E, puis en choisissant la personne. Autre raccourci : Contrôle + Option + Commande + L envoie votre presse-papiers à la dernière personne contactée. Vous pouvez aussi passer par le menu Services de macOS : Envoyer avec Slide.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.7.1/Slide-0.7.1.dmg" sparkle:edSignature="H7YsA+bBVY7iWx+L0lR8M8XjXWJx3G8UnyeJYQNctJALjXbC2PY0F/S3HWzLi+X2RzzD6fwHRlOFBlEu9u5lDQ==" length="7211072" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.7.0</title>
             <pubDate>Sat, 24 Oct 2026 21:40:54 -0000</pubDate>
             <sparkle:version>28</sparkle:version>
