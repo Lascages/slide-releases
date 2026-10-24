@@ -20,7 +20,7 @@
             <sparkle:version>28</sparkle:version>
             <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[Nouveau : menu Services « Envoyer avec Slide » (texte et fichiers, depuis n'importe quelle app) et raccourci ⌃⌥⌘L pour envoyer le presse-papiers à la dernière personne contactée.]]></description>
+            <description><![CDATA[Nouveau : envoyez la sélection ou votre presse-papiers plus vite. Menu Services de macOS : Envoyer avec Slide. Raccourci Contrôle + Option + Commande + L : envoie votre presse-papiers à la dernière personne contactée.]]></description>
             <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.7.0/Slide-0.7.0.dmg" sparkle:edSignature="VCMMnODxsHcxnC/8gg45hBbz3QcOHbPn6WFaGtFriCix0XSxccZCcmAgfrkbttMXsbJcSh7pPcJ8UNx99scSBg==" length="7177908" type="application/octet-stream"/>
         </item>
         <item>
