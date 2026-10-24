@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.11.1</title>
+            <pubDate>Sat, 24 Oct 2026 22:56:56 -0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : vous pouvez déplacer le lecteur vidéo où vous voulez en le glissant (par la barre du haut ou directement sur l'image). Il se souvient de sa place. Choisir un coin dans les réglages le remet à cet endroit.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.11.1/Slide-0.11.1.dmg" sparkle:edSignature="nbC7HWAs5l5BnR29f2l/Z9dzOjZntSqCZq4HppRnAiPQS55whzAv5tfbc7JaHG3dR18FpwMciCPUW15Fn2ozAg==" length="7588294" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.11.0</title>
             <pubDate>Sat, 24 Oct 2026 22:54:46 -0000</pubDate>
             <sparkle:version>33</sparkle:version>
