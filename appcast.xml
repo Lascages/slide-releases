@@ -6,6 +6,15 @@
         <description>Versions de Slide</description>
         <language>fr</language>
         <item>
+            <title>Slide 0.10.0</title>
+            <pubDate>Sat, 24 Oct 2026 22:48:15 -0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nouveau : mini-lecteur vidéo. Les liens YouTube, Dailymotion, Vimeo et d'autres sites vidéo se lisent dans une petite fenêtre au-dessus de vos applications, dans le coin de votre choix. Boutons pour changer la taille, passer en plein écran, garder devant ou derrière, ou ouvrir dans une petite fenêtre de navigateur. Réglable dans Réglages. Aussi : les envois de notes et la bulle d'envoi gardent leur autorisation entre les mises à jour.]]></description>
+            <enclosure url="https://github.com/Lascages/slide-releases/releases/download/v0.10.0/Slide-0.10.0.dmg" sparkle:edSignature="QRtq5Uz0GzDoZrwPg95IrN6KlqrT9jO2kRF5HAj4Ot5JAI8pdvJhOIhFA0LlK7y3Dl//V95aMOXfzH6NjRdcCQ==" length="7472019" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Slide 0.9.1</title>
             <pubDate>Sat, 24 Oct 2026 22:26:58 -0000</pubDate>
             <sparkle:version>32</sparkle:version>
